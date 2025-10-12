@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container{
+    margin-top: 10px;
+    width: 1050px;
+    height: 550px;
+    border: 2px solid rgb(84, 1, 84);
+    display: grid;
+    grid-template-columns: repeat(105,1fr);
+    grid-template-rows: repeat(55, 1fr);
+    background: transparent;
+}
+.bottom{
+    margin-top: 5px;
+    width: 1050px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+}
+.cell{
+    width: 10px;
+    height: 10px;
+    background: white;
+    color: black;
+    font-size: 3px;
+}
+.black{
+    background: black;
+}
+.white{
+    background: white;
+}
